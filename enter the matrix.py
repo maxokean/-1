@@ -8,8 +8,8 @@ def get_matrix(n, m, value):
     empty = []
     for n in range (n):
         matrix.append(empty)
-        for m in range(m):
-            (empty.append(value))
+    for m in range(m):
+        (empty.append(value))
 
     return matrix
 
